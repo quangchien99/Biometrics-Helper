@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_black"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <EditText
+        android:id="@+id/edtKey"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="32dp"
+        android:hint="@string/key_hint"
+        android:textColor="@color/light_white"
+        android:textColorHint="@color/light_gray" />
+
+    <TextView
+        android:id="@+id/btnEncryptBiometrics"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape_button_round"
+        android:gravity="center"
+        android:text="Encrypt with Biometrics"
+        android:textColor="@color/light_white" />
+
+    <TextView
+        android:id="@+id/btnDecryptBiometrics"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape_button_round"
+        android:gravity="center"
+        android:text="Decrypt with Biometrics"
+        android:textColor="@color/light_white" />
+</LinearLayout>

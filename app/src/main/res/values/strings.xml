@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BiometricsHelper</string>
+
+    <string name="fragment_normal_name">Normal Biometrics</string>
+    <string name="fragment_crypto_name">Crypto Biometrics</string>
+
+    <string name="biometrics_title">Biometrics Authentication</string>
+    <string name="biometrics_subtitle">Use fingerprint or face or iris to verify</string>
+    <string name="biometrics_description">biometrics_description</string>
+    <string name="biometrics_negative_button_text">Cancel</string>
+
+    <string name="biometrics_success">Verify Biometrics Successfully</string>
+
+    <string name="biometrics_device_not_available_error">Device biometrics not available</string>
+    <string name="biometrics_lock_due_to_exceed_attempt_error">Verify Biometrics Locked due to exceed number of tries</string>
+    <string name="biometrics_verify_failed">Verify Biometrics Failed!</string>
+    <string name="biometrics_error">Verify Biometrics Error: %s</string>
+
+    <string name="key_hint">Enter key</string>
+    <string name="data_hint">Enter data</string>
+    <string name="key_title">Biometrics Status of %s : </string>
+    <string name="status_on">ON</string>
+    <string name="status_off">OFF</string>
+
+    <string name="decrypt_result">Decrypt result= %s</string>
+
+    <string name="input_data">Input Data</string>
+    <string name="enter_data">Enter Data</string>
+    <string name="data">Data</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="data_encrypted_successfully">Data encrypted successfully</string>
+    <string name="key_must_not_empty">Key must not be empty</string>
+    <string name="data_encrypted_failed">Data encrypted failed</string>
+</resources>
